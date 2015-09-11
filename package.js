@@ -2,15 +2,15 @@
 Package.describe(
 	{
 		summary: "Uploadcare handles uploads, so you don’t have to.",
-		version: "1.5.1_1",
-		name: "maximdubrovin:uploadcare",
-		git: "https://github.com/MaximDubrovin/meteor-uploadcare.git"
+		version: "2.5.1",
+		name: "lytvynenko:uploadcare",
+		git: "https://github.com/lytvynenko/meteor-uploadcare.git"
 	}
 );
 
 Package.on_use(function(api)
 	{
 		api.versionsFrom('0.9.0');
-		api.add_files([ "lib/uploadcare-1.5.1.min.js" ], ["client"]);
+		api.add_files([ "lib/uploadcare.full.min.js" ], ["client"]);
 	}
 );
