@@ -11,6 +11,6 @@ Package.describe(
 Package.on_use(function(api)
 	{
 		api.versionsFrom('0.9.0');
-		api.add_files([ "lib/uploadcare.full.min.js" ], ["client"]);
+		api.add_files([ "lib/uploadcare.min.js" ], ["client"]);
 	}
 );
